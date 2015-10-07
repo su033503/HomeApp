@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/imageview" />
             <option value="$PROJECT_DIR$/imageview2" />
+            <option value="$PROJECT_DIR$/layout" />
+            <option value="$PROJECT_DIR$/tableCal" />
           </set>
         </option>
       </GradleProjectSettings>
