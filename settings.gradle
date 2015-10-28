@@ -1,1 +1,1 @@
-include ':app', ':imageview', ':imageview2', ':layout', ':tableCal'
+include ':app', ':imageview', ':imageview2', ':layout', ':tableCal', ':webview'
