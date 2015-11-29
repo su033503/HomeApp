@@ -20,7 +20,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="2015년 11월 29일"
                 android:textSize="30dp"
                 android:gravity="center"
                 android:id="@+id/dateView"/></LinearLayout>
