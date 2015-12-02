@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {            //사용자가 날짜선택을 마치고 확인버튼을 누르면
-                        cYear = cal.get(Calendar.YEAR);                                 //현재 선택된 년,월,일 값으로 변수들을 갱신한다.
+                        cYear = cal.get(Calendar.YEAR);                                 //현재 선택된 연,월,일 값으로 변수들을 갱신한다.
                         cMonth = cal.get(Calendar.MONTH);
                         cDay = cal.get(Calendar.DAY_OF_MONTH);
                         makeDiary(cYear, cMonth, cDay);                                 //해당 날짜의 일기가 있는지 체크, 있으면 불러온다.
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void makeDiary(int year, int month, int day) {                     //년,월,일을 인자로 받아 파일이름을 조합하여 생성하는 메소드이다.
+    public void makeDiary(int year, int month, int day) {                     //연,월,일을 인자로 받아 파일이름을 조합하여 생성하는 메소드이다.
         String date = Integer.toString(year)+"년 "+Integer.toString(month + 1)+"월 "+ Integer.toString(day)+"일";      //날짜를 표시하기 위한 변수이다.
         fileName = Integer.toString(year) + "_" + Integer.toString(month + 1) + "_" + Integer.toString(day) + ".txt";  //파일이름을 조합하여 만들고 변수에 저장한다.
         String str = readDiary(fileName);                              //readDiary메소드에 조합한 파일이름을 넘겨준다. 그 결과를 String변수로 받아 저장한다.

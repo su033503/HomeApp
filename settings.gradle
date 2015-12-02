@@ -1,1 +1,1 @@
-include ':app', ':imageview', ':imageview2', ':layout', ':tableCal', ':webview', ':dialog', ':diary', ':activity', ':gridview', ':questdiary'
+include ':app', ':imageview', ':imageview2', ':layout', ':tableCal', ':webview', ':dialog', ':diary', ':activity', ':gridview', ':questdiary', ':girlgroupdb', ':girl'
