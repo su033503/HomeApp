@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyHomeApplication.iml" filepath="$PROJECT_DIR$/MyHomeApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeApp.iml" filepath="$PROJECT_DIR$/HomeApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/activity/activity.iml" filepath="$PROJECT_DIR$/activity/activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/imageview2/imageview2.iml" filepath="$PROJECT_DIR$/imageview2/imageview2.iml" />
       <module fileurl="file://$PROJECT_DIR$/layout/layout.iml" filepath="$PROJECT_DIR$/layout/layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/questdiary/questdiary.iml" filepath="$PROJECT_DIR$/questdiary/questdiary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sglite/sglite.iml" filepath="$PROJECT_DIR$/sglite/sglite.iml" />
       <module fileurl="file://$PROJECT_DIR$/tableCal/tableCal.iml" filepath="$PROJECT_DIR$/tableCal/tableCal.iml" />
       <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
     </modules>
